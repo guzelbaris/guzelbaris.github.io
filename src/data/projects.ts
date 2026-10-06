@@ -17,6 +17,25 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+{
+  id: "table-and-taste",
+  title: "Table & Taste",
+  category: "Web",
+  status: "Completed",
+  description:
+    "An interactive restaurant website combining modern design, cuisine themes, and a visual table-reservation experience.",
+  highlights: [
+    "Responsive layouts for exploring the restaurant and its menu.",
+    "Interactive table settings that adapt to the selected party size, from two to six guests.",
+    "A reservation interface with date and time selection.",
+  ],
+  technologies: ["React", "TypeScript", "CSS", "UI / UX"],
+  visual: "restaurant",
+link: {
+  label: "View website",
+  href: "https://guzelbaris.github.io/table-and-taste/",
+},
+},
   {
     id: "sudoku-lab",
     title: "Sudoku Lab",
@@ -31,20 +50,6 @@ export const projects: Project[] = [
     ],
     technologies: ["C++", "Algorithms", "React · planned", "TypeScript · planned"],
     visual: "sudoku",
-  },
-  {
-    id: "table-and-taste",
-    title: "Table & Taste",
-    category: "Web",
-    status: "Coming soon",
-    description:
-      "A planned restaurant website concept combining inviting visuals with a clear, effortless browsing experience.",
-    highlights: [
-      "Planned menu presentation and restaurant storytelling.",
-      "Responsive layouts with attention to typography and accessibility.",
-    ],
-    technologies: ["React · planned", "TypeScript · planned", "UI / UX"],
-    visual: "restaurant",
   },
   {
     id: "sharp-studio",
